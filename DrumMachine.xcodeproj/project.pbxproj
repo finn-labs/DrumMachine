@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF139923214A6EC80035D626 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF139922214A6EC80035D626 /* UIColor+Extensions.swift */; };
+		CF139925214BA34D0035D626 /* DrumPadPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF139924214BA34D0035D626 /* DrumPadPlayer.swift */; };
 		CF7F46F021414231004DB629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F46EF21414231004DB629 /* AppDelegate.swift */; };
 		CF7F46F221414231004DB629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F46F121414231004DB629 /* ViewController.swift */; };
 		CF7F46F521414231004DB629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7F46F321414231004DB629 /* Main.storyboard */; };
-		CF7F46F821414231004DB629 /* DrumMachine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF7F46F621414231004DB629 /* DrumMachine.xcdatamodeld */; };
 		CF7F46FA21414232004DB629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7F46F921414232004DB629 /* Assets.xcassets */; };
 		CF7F46FD21414232004DB629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7F46FB21414232004DB629 /* LaunchScreen.storyboard */; };
+		CF7F470D21414286004DB629 /* DrumPadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F470721414286004DB629 /* DrumPadCollectionViewCell.swift */; };
+		CF7F470E21414286004DB629 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F470821414286004DB629 /* Instrument.swift */; };
+		CF7F470F21414286004DB629 /* InstrumentSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F470921414286004DB629 /* InstrumentSelectorViewController.swift */; };
+		CF7F471021414286004DB629 /* DrumPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F470B21414286004DB629 /* DrumPadViewController.swift */; };
+		CF7F471121414286004DB629 /* DrumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F470C21414286004DB629 /* DrumsViewController.swift */; };
+		CF7F471721415E2D004DB629 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF7F471521415E2D004DB629 /* kick.wav */; };
+		CF7F471821415E2D004DB629 /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF7F471621415E2D004DB629 /* snare.wav */; };
+		CF7F471A21416E16004DB629 /* pusefinn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF7F471921416E16004DB629 /* pusefinn.wav */; };
+		CF7F471C21416E29004DB629 /* hi-hats.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF7F471B21416E29004DB629 /* hi-hats.wav */; };
+		CF7F471E21417DF3004DB629 /* DrumsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F471D21417DF3004DB629 /* DrumsFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF139922214A6EC80035D626 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		CF139924214BA34D0035D626 /* DrumPadPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumPadPlayer.swift; sourceTree = "<group>"; };
 		CF7F46EC21414231004DB629 /* DrumMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7F46EF21414231004DB629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF7F46F121414231004DB629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF7F46F421414231004DB629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF7F46F721414231004DB629 /* DrumMachine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrumMachine.xcdatamodel; sourceTree = "<group>"; };
 		CF7F46F921414232004DB629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF7F46FC21414232004DB629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF7F46FE21414232004DB629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7F470721414286004DB629 /* DrumPadCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumPadCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF7F470821414286004DB629 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
+		CF7F470921414286004DB629 /* InstrumentSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentSelectorViewController.swift; sourceTree = "<group>"; };
+		CF7F470B21414286004DB629 /* DrumPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumPadViewController.swift; sourceTree = "<group>"; };
+		CF7F470C21414286004DB629 /* DrumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrumsViewController.swift; sourceTree = "<group>"; };
+		CF7F471521415E2D004DB629 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		CF7F471621415E2D004DB629 /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
+		CF7F471921416E16004DB629 /* pusefinn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pusefinn.wav; sourceTree = "<group>"; };
+		CF7F471B21416E29004DB629 /* hi-hats.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hi-hats.wav"; sourceTree = "<group>"; };
+		CF7F471D21417DF3004DB629 /* DrumsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF139921214A6EBC0035D626 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CF139922214A6EC80035D626 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CF139926214BA3880035D626 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F4720214182BD004DB629 /* DrumSounds */,
+				CF7F46F321414231004DB629 /* Main.storyboard */,
+				CF7F46F921414232004DB629 /* Assets.xcassets */,
+				CF7F46FB21414232004DB629 /* LaunchScreen.storyboard */,
+				CF7F46FE21414232004DB629 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF139927214BA38F0035D626 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F46EF21414231004DB629 /* AppDelegate.swift */,
+				CF7F46F121414231004DB629 /* ViewController.swift */,
+				CF139921214A6EBC0035D626 /* Extensions */,
+				CF7F471221414320004DB629 /* Features */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		CF7F46E321414231004DB629 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +109,59 @@
 		CF7F46EE21414231004DB629 /* DrumMachine */ = {
 			isa = PBXGroup;
 			children = (
-				CF7F46EF21414231004DB629 /* AppDelegate.swift */,
-				CF7F46F121414231004DB629 /* ViewController.swift */,
-				CF7F46F321414231004DB629 /* Main.storyboard */,
-				CF7F46F921414232004DB629 /* Assets.xcassets */,
-				CF7F46FB21414232004DB629 /* LaunchScreen.storyboard */,
-				CF7F46FE21414232004DB629 /* Info.plist */,
-				CF7F46F621414231004DB629 /* DrumMachine.xcdatamodeld */,
+				CF139927214BA38F0035D626 /* Sources */,
+				CF139926214BA3880035D626 /* Resources */,
 			);
 			path = DrumMachine;
+			sourceTree = "<group>";
+		};
+		CF7F470621414286004DB629 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F470821414286004DB629 /* Instrument.swift */,
+				CF7F470921414286004DB629 /* InstrumentSelectorViewController.swift */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		CF7F470A21414286004DB629 /* Pad */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F470721414286004DB629 /* DrumPadCollectionViewCell.swift */,
+				CF139924214BA34D0035D626 /* DrumPadPlayer.swift */,
+				CF7F470B21414286004DB629 /* DrumPadViewController.swift */,
+			);
+			path = Pad;
+			sourceTree = "<group>";
+		};
+		CF7F471221414320004DB629 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F471F214182AB004DB629 /* Drums */,
+				CF7F470621414286004DB629 /* Instruments */,
+				CF7F470A21414286004DB629 /* Pad */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CF7F471F214182AB004DB629 /* Drums */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F471D21417DF3004DB629 /* DrumsFooterView.swift */,
+				CF7F470C21414286004DB629 /* DrumsViewController.swift */,
+			);
+			path = Drums;
+			sourceTree = "<group>";
+		};
+		CF7F4720214182BD004DB629 /* DrumSounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F471521415E2D004DB629 /* kick.wav */,
+				CF7F471B21416E29004DB629 /* hi-hats.wav */,
+				CF7F471921416E16004DB629 /* pusefinn.wav */,
+				CF7F471621415E2D004DB629 /* snare.wav */,
+			);
+			path = DrumSounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +224,10 @@
 			files = (
 				CF7F46FD21414232004DB629 /* LaunchScreen.storyboard in Resources */,
 				CF7F46FA21414232004DB629 /* Assets.xcassets in Resources */,
+				CF7F471721415E2D004DB629 /* kick.wav in Resources */,
+				CF7F471A21416E16004DB629 /* pusefinn.wav in Resources */,
+				CF7F471C21416E29004DB629 /* hi-hats.wav in Resources */,
+				CF7F471821415E2D004DB629 /* snare.wav in Resources */,
 				CF7F46F521414231004DB629 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7F470F21414286004DB629 /* InstrumentSelectorViewController.swift in Sources */,
+				CF139923214A6EC80035D626 /* UIColor+Extensions.swift in Sources */,
+				CF7F471021414286004DB629 /* DrumPadViewController.swift in Sources */,
+				CF7F471121414286004DB629 /* DrumsViewController.swift in Sources */,
+				CF7F470E21414286004DB629 /* Instrument.swift in Sources */,
 				CF7F46F221414231004DB629 /* ViewController.swift in Sources */,
+				CF139925214BA34D0035D626 /* DrumPadPlayer.swift in Sources */,
+				CF7F471E21417DF3004DB629 /* DrumsFooterView.swift in Sources */,
+				CF7F470D21414286004DB629 /* DrumPadCollectionViewCell.swift in Sources */,
 				CF7F46F021414231004DB629 /* AppDelegate.swift in Sources */,
-				CF7F46F821414231004DB629 /* DrumMachine.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DrumMachine/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DrumMachine/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DrumMachine/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DrumMachine/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,19 +444,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CF7F46F621414231004DB629 /* DrumMachine.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CF7F46F721414231004DB629 /* DrumMachine.xcdatamodel */,
-			);
-			currentVersion = CF7F46F721414231004DB629 /* DrumMachine.xcdatamodel */;
-			path = DrumMachine.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CF7F46E421414231004DB629 /* Project object */;
 }
