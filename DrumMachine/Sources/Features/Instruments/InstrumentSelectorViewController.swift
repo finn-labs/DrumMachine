@@ -55,7 +55,7 @@ final class InstrumentSelectorViewController: UIViewController {
         view.addSubview(segmentedControl)
         setupConstraints()
 
-        titleLabel.text = "Instrumenter"
+        titleLabel.text = "Instruments"
         segmentedControl.selectedSegmentIndex = instruments.index(where: { $0 == selectedInstrument}) ?? 0
         segmentedControl.addTarget(self, action: #selector(handleSegmentedControlChange(_:)), for: .valueChanged)
     }
