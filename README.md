@@ -1,6 +1,6 @@
 # DrumMachine
 
-![](https://raw.githubusercontent.com/finn-labs/DrumMachine/master/GitHub/cover.jpg)
+![](https://raw.githubusercontent.com/finn-labs/DrumMachine/master/GitHub/image.jpg)
 
 # Credits
 
