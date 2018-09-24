@@ -1,8 +1,4 @@
-# DrumMachine
-
-![](https://raw.githubusercontent.com/finn-labs/DrumMachine/master/GitHub/image.jpg)
-
-## Credits
+# Credits
 
 **Sounds used in the app:**
 
