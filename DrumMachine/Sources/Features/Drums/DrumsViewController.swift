@@ -103,9 +103,9 @@ extension DrumsViewController: InstrumentSelectorViewControllerDelegate {
 
 private extension UIViewController {
     func add(childController: UIViewController) {
-        childController.willMove(toParentViewController: self)
-        addChildViewController(childController)
+        childController.willMove(toParent: self)
+        addChild(_:(childController))
         view.addSubview(childController.view)
-        childController.didMove(toParentViewController: self)
+        childController.didMove(toParent: self)
     }
 }

@@ -6,6 +6,9 @@
 //  Copyright © 2018 FINN.no AS. All rights reserved.
 //
 
+
+//This is where the "Reset" and "Close" buttons are
+
 import UIKit
 
 final class DrumsFooterView: UIView {
@@ -22,6 +25,8 @@ final class DrumsFooterView: UIView {
         button.setTitleColor(.cherry, for: .normal)
         return button
     }()
+    
+    
 
     // MARK: - Init
 
